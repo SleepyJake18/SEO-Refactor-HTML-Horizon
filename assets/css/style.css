@@ -32,7 +32,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* Modifies any "ul" tag wtihin a "nav" tag within a "header" tag */
+/* Modifies any "ul" tag within a "nav" tag within a "header" tag */
 header nav ul {
     list-style-type: none;
 }
@@ -41,12 +41,12 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Modifies any "a" tag wtihin document */
+/* Modifies any "a" tag within document */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Modifies any "p" tag wtihin document */
+/* Modifies any "p" tag within document */
 p {
     font-size: 16px;
 }
@@ -86,8 +86,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Modifies any element with the class "services" */
-.services {
+/* Modifies any "section" element */
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -95,28 +95,28 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Modifies any "img" element within any element containing the "services" class */
-.services img {
+/* Modifies any "img" element within any "section" element */
+section img {
     max-height: 200px;
 }
-/* Modifies any "h2" element within any element containing the "services" class */
-.services h2 {
+/* Modifies any "h2" element within any "section" element */
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Modifies any element containing the "benefit" class */
-.benefit {
+/* Modifies any "aside" element */
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Modifies any "h3" element within any elememt containing the class "benefit" */
-.benefit h3 {
+/* Modifies any "h3" element within any "aside" element */
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* Modifies any "img" element within any element containing the "benefit" class */
-.benefit img {
+/* Modifies any "img" element within any "aside" element */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
