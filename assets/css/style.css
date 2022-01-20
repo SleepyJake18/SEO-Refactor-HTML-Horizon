@@ -1,0 +1,134 @@
+/* Modifies all elements within document*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Modifies the "body" element in document */
+body {
+    background-color: #d9dcd6;
+}
+/* Modifies "header" element within document */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Modifies any "h1" tag within a "header" tag */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Modifies any "h1" tag with the class "seo" within a "header" tag */
+header h1 .seo {
+    color: #d9dcd6;
+}
+/* Modifies any "nav" tag within a "header" tag */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Modifies any "ul" tag wtihin a "nav" tag within a "header" tag */
+header nav ul {
+    list-style-type: none;
+}
+/* Modifiers any "li" tag within an "ul" tag within a "nav" tag within a "header" tag*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Modifies any "a" tag wtihin document */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Modifies any "p" tag wtihin document */
+p {
+    font-size: 16px;
+}
+/* Modifies any element with the class "hero" */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Modifies any element with the class "float-left" */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Modifies any element with the class "float-right" */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Modifies any element with the class "content" */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Modifies any element with the class "benefits" */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Modifies any element with the class "services" */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Modifies any "img" element within any element containing the "services" class */
+.services img {
+    max-height: 200px;
+}
+/* Modifies any "h2" element within any element containing the "services" class */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Modifies any element containing the "benefit" class */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Modifies any "h3" element within any elememt containing the class "benefit" */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Modifies any "img" element within any element containing the "benefit" class */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Modifies any "footer" element */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Modifies any "h2" element within any "footer" element */
+footer h2 {
+    font-size: 20px;
+}

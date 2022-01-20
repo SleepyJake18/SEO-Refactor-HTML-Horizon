@@ -1,2 +1,2 @@
 # SEO-Refactor-HTML-Horizon
-The first homework assignment for OSU Coding Boot Camp. It contains a refactor of the code to updated HTML standards.
+A refactor of the Horiseon homepage. This contains more semantically correct HTML, support for the disabled, as well as a cleaner and simplified CSS stylesheet.
